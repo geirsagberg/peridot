@@ -125,7 +125,7 @@ namespace Peridot
         /// <param name="disposing">If called by <see cref="Dispose()"/></param>
         protected abstract void Dispose(bool disposing);
 
-        private void CheckValid(ITexture2D texture)
+        private void CheckValid(TTexture texture)
         {
             if (texture == null)
                 throw new ArgumentNullException(nameof(texture));
